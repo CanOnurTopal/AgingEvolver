@@ -9,7 +9,7 @@ Include the AgingEvolver module from AgingEvolver.py to get started. There is an
 # AgingEvolver module
 
 
-### class AgingEvolver.AgingEvolver(x: numpy.ndarray, y: numpy.ndarray, x_test: Optional[numpy.ndarray] = None, y_test: Optional[numpy.ndarray] = None, test_size: Optional[Union[int, float]] = None, population_size: int = 30, batch_size: int = 64, metric='accuracy', maximize_metric: bool = True, mutators: Optional[list] = None, output_layer: Optional[keras.engine.base_layer.Layer] = None)
+### class AgingEvolver.AgingEvolver(x: numpy.ndarray, y: numpy.ndarray, x_test: Optional[numpy.ndarray] = None, y_test: Optional[numpy.ndarray] = None)
 Bases: `object`
 
 Once the parameters are set, the run() method will evolve a population of models in order to create the optimal model for the task.
