@@ -9,7 +9,7 @@ Include the AgingEvolver module from AgingEvolver.py to get started. There is an
 # AgingEvolver module
 
 
-### class AgingEvolver.AgingEvolver(x: numpy.ndarray, y: numpy.ndarray, x_test: Optional[numpy.ndarray] = None, y_test: Optional[numpy.ndarray] = None)
+### class AgingEvolver.AgingEvolver(x: numpy.ndarray, y: numpy.ndarray, x_test: numpy.ndarray = None, y_test: numpy.ndarray = None)
 Bases: `object`
 
 Once the parameters are set, the run() method will evolve a population of models in order to create the optimal model for the task.
